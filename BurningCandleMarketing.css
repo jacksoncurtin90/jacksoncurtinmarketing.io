@@ -4,8 +4,11 @@ background-color: #989898;
 header {
     background-color: black;
     font: Roboto;
+    font-size: large;
+    color: cornsilk;
     max-width: 1440px;
     width: 70%;
     height: auto;
     text-align: center;
+    
 }
