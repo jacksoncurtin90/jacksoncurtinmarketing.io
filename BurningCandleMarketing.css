@@ -2,6 +2,7 @@ body {
 background-color: #989898;
 }
 header {
+    align-self: center;
     background-color: black;
     font: Roboto;
     font-size: large;
