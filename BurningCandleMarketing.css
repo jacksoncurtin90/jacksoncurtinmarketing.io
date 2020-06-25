@@ -13,20 +13,10 @@ header {
     height: auto;
     text-align: center;
     
-}
-.NavBar {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    display: inline;
-    float: left;
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+/* Nav Menu */
 
-}
 ul {
-    position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   display: inline;
