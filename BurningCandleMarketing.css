@@ -3,6 +3,7 @@ background-color: #989898;
 }
 header {
     margin: auto;
+    padding: 15%;
     background-color: black;
     font: Roboto;
     font-size: large;
