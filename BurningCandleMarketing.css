@@ -14,3 +14,16 @@ header {
     text-align: center;
     
 }
+.NavBar {
+
+}
+ul {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  display: inline;
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
