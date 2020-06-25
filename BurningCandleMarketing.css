@@ -12,14 +12,13 @@ header {
     width: 70%;
     height: auto;
     text-align: center;
-    
+}
 /* Nav Menu */
 
 .NavBar {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  display: inline;
   float: left;
   display: block;
   padding: 8px;
