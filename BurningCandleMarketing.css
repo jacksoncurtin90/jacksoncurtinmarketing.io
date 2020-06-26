@@ -6,7 +6,7 @@ margin: 0;
 header {
     font-size: larger;
     font-family: Roboto, Helvetica, sans-serif;
-    padding: 30%;
+    padding: 20%;
     margin: auto%;
     align-self: auto;
     color: cornsilk;
@@ -14,7 +14,7 @@ header {
     text-align: center;
     width: 70%;
     max-width: 800px;
-    border-radius: 15%;
+    border-radius: 30%;
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);cornflowerblue; opacity: 35%; 
 }
 
