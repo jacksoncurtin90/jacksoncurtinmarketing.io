@@ -6,6 +6,8 @@ margin: 0;
 header {
     font-size: larger;
     font-family: Roboto, Helvetica, sans-serif;
+    padding: 25%;
+    margin: 15%;
     color: cornsilk;
     background-color: black;
     text-align: center;
