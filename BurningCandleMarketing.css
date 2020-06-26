@@ -1,11 +1,12 @@
 body {
 background-color: #989898;
 margin: 0;
+padding: 15%;
 }
 
 .head1{
     max-width: 800px;
-    padding: 20%;
+
 }
 
 header {
