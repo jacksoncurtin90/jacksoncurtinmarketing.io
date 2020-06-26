@@ -1,7 +1,7 @@
 body {
  background-color: #989898;
- margin: 15%;
- padding: 15%;
+ margin: 10%;
+ padding: 10%;
 }
 
 .head1{
@@ -13,7 +13,7 @@ header {
     font-size: larger;
     font-family: Roboto, Helvetica, sans-serif;
     padding: 20%;
-    margin: auto%;
+    margin: auto;
     align-self: auto;
     color: cornsilk;
     background-color: black;
