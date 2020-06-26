@@ -3,6 +3,11 @@ background-color: #989898;
 margin: 0;
 }
 
+.head1{
+    max-width: 800px;
+    padding: 20%;
+}
+
 header {
     font-size: larger;
     font-family: Roboto, Helvetica, sans-serif;
