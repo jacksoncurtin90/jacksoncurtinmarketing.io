@@ -26,6 +26,13 @@ body {
     box-shadow:0 4% 8% 0 cornflowerblue; opacity: 65%; 
 }
 
+.headerimg {
+	margin: auto;
+	height: auto;
+	width: 100%;
+	max-width: 800px;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
