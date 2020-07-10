@@ -7,10 +7,8 @@ body {
 /* Div container for  site content */
 
 .content {
-	max-width: 800px;
 	background-color: #989898;
 	margin: auto;
-	padding: 15%;
 }
 
 /* Header and Image */
@@ -66,49 +64,60 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 
+/* White Background for main content */
+
+.main {
+	background: white;
+	overflow: auto;
+	width: 80%;
+	max-width: 800px;
+	margin: auto;
+	padding: 3%;
+}
+
 /* Bio Card */
 
 .card { 
 	background: black;  
 	width: 100%; 
-	max-width: 600px; 
-	height: auto; 
-	margin: auto;
-	padding: 5%; 
-	border-radius: 15%; 
+	max-width: 725px; 
+	height: auto;
+	padding: 5%;  
 	overflow: auto;
 }
 	
-
-.tile {
-	margin: auto;
-}
-
 .bio { 
-	width: 100%;
-	max-width: 500px;
+	width: 800%;
+	max-width: 600px;
 	color: black; 
 	background: white; 
-	font-size: 125%; 
+	font-size: 150%; 
 	padding: 5%; 
-	border-radius: 15%; 
 	margin: auto; 
-	box-shadow: 4px 6px 6px 4px black;
 	overflow: auto;
 }
 
 .imgcard {
-	width: 45%; 
+	width: 30%; 
 	max-width: 250px; 
 	height: auto; 
 	float:left; 
 	border-radius: 50%; 
 	background: white;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	border: 5px solid navy; 
 	box-shadow: 2px 3px 3px black;
 }
 
 p {
-	margin: 0% 10% 10% 5%;
+	margin: 0% 10% 0% 10%;
 }
+
+footer {
+	background: black;
+	width: 100%;
+	padding: 10%;
+}
+
+
