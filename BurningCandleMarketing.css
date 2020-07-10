@@ -87,7 +87,7 @@ ul.topnav li.right {float: right;}
 }
 	
 .bio { 
-	width: 80%;
+	width: 30%;
 	max-width: 200px;
 	color: black; 
 	background: white; 
@@ -113,6 +113,10 @@ ul.topnav li.right {float: right;}
 p {
 	margin: 0% 10% 0% 10%;
 }
+
+/* Work History Card */
+
+
 
 footer {
 	background: black;
