@@ -16,7 +16,6 @@ body {
 /* Header and Image */
 
 .header {
-	max-width: 800px;
     font-size: larger;
     font-family: Roboto, Helvetica, sans-serif;
     padding: 5%;
