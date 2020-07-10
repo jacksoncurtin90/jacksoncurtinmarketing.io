@@ -1,21 +1,15 @@
+/* Best practice for Your body style is to set your default font-family, background color, or any other spefications that would be relevent for the entire page. Tags like body, footer, and header don't need a designated class */
+
 body {
 	background-color: #989898;
     margin: 0;
     font-family: Roboto, Helvetica, sans-serif;
 }
 
-/* Div container for  site content */
-
-.content {
-	background-color: #989898;
-	margin: auto;
-}
-
-/* Header and Image */
+/* Header and Logo */
 
 .header {
     font-size: larger;
-    font-family: Roboto, Helvetica, sans-serif;
     padding: 5%;
     margin: auto;
     color: cornsilk;
@@ -78,23 +72,27 @@ ul.topnav li.right {float: right;}
 /* Bio Card */
 
 .card { 
-	background: black;  
+	background: blue;  
 	width: 30%; 
 	max-width: 400px; 
 	height: auto;
-	padding: 5%;  
+	padding: 2%;  
 	overflow: auto;
+	border-radius: 25%
+   
 }
 	
 .bio { 
-	width: 30%;
+	width: 90%;
 	max-width: 200px;
 	color: black; 
 	background: white; 
 	font-size: 60%; 
-	padding: 5%; 
+	padding: 2%; 
 	margin: auto; 
 	overflow: auto;
+	border-radius: 25%;
+	box-shadow: 2px 3px 3px black;
 }
 
 .imgcard {
@@ -114,14 +112,10 @@ p {
 	margin: 0% 10% 0% 10%;
 }
 
-/* Work History Card */
-
-
-
 footer {
 	background: black;
 	width: 100%;
 	padding: 10%;
 }
 
-
+/* Work History Card */
