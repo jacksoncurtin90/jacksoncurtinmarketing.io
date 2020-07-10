@@ -1,20 +1,24 @@
 body {
-	background-color: #000000;
+	background-color: #989898;
     margin: 0;
     font-family: Roboto, Helvetica, sans-serif;
 }
 
-/* Div container for content */
+/* Div container for  site content */
 
 .content {
 	max-width: 800px;
 	background-color: #989898;
 	margin: auto;
-	padding: 0%;
+	padding: 15%;
 }
+
+/* Header and Image */
 
 .header {
 	max-width: 800px;
+    font-size: larger;
+    font-family: Roboto, Helvetica, sans-serif;
     padding: 5%;
     margin: auto;
     color: cornsilk;
@@ -27,10 +31,12 @@ body {
 .headerimg {
 	margin: auto;
 	height: auto;
-	width: 125%;
-    max-width: 600px;
+	width: 75%;
+	max-width: 600px;
     float: none;
 }
+
+/* Navigation Bar */
 
 ul.topnav {
   list-style-type: none;
@@ -61,4 +67,49 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 
+/* Bio Card */
 
+.card { 
+	background: black;  
+	width: 100%; 
+	max-width: 600px; 
+	height: auto; 
+	margin: auto;
+	padding: 5%; 
+	border-radius: 15%; 
+	overflow: auto;
+}
+	
+
+.tile {
+	margin: auto;
+}
+
+.bio { 
+	width: 100%;
+	max-width: 500px;
+	color: black; 
+	background: white; 
+	font-size: 125%; 
+	padding: 5%; 
+	border-radius: 15%; 
+	margin: auto; 
+	box-shadow: 4px 6px 6px 4px black;
+	overflow: auto;
+}
+
+.imgcard {
+	width: 45%; 
+	max-width: 250px; 
+	height: auto; 
+	float:left; 
+	border-radius: 50%; 
+	background: white;
+	margin-right: 20px;
+	border: 5px solid navy; 
+	box-shadow: 2px 3px 3px black;
+}
+
+p {
+	margin: 0% 10% 10% 5%;
+}
