@@ -4,127 +4,79 @@
 <head>
 <link href="BurningCandleMarketing.css" rel="stylesheet" type="text/css">
 
-	<script>
-		var slideIndex = 1;
-showSlides(slideIndex);
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+var elems = document.querySelectorAll('.carousel');
+var instances = M.Carousel.init(elems, options);
+});
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+// Or with jQuery
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+$(document).ready(function(){
+$('.carousel').carousel();
+});
+	var instance = M.Carousel.init({
+fullWidth: true,
+indicators: true
+});
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-	</script>
+// Or with jQuery
+
+$('.carousel.carousel-slider').carousel({
+fullWidth: true,
+indicators: true
+});
+</script>
 
 </head>
 <body style="-webkit-backface-visibility: hidden;">
-	<!-- Header -->
-    <header class="header">
-       <img class="headerimg" src="https://i.imgur.com/GElzkSC.png" alt="Burning Candle Marketing"> 
-    </header>
-	<!-- Menu Bar -->
-	<div>
-    <ul class="topnav">
-  <li><a href="https://www.linkedin.com/in/jackson-curtin-578181110/">Home</a></li>
-  <li><a href="#news">Services</a></li>
-  <li><a href="#contact">Pricing</a></li>
-  <li><a href="#contact">Contact</a></li>
+<!-- Header -->
+<header class="header">
+ <img class="headerimg" src="https://i.imgur.com/GElzkSC.png" alt="Burning Candle Marketing"> 
+</header>
+<!-- Menu Bar -->
+<div>
+<ul class="topnav">
+<li><a href="https://www.linkedin.com/in/jackson-curtin-578181110/">Home</a></li>
+<li><a href="#news">Services</a></li>
+<li><a href="#contact">Pricing</a></li>
+<li><a href="#contact">Contact</a></li>
 </ul>
-	</div>
-	
-	<!-- Slide Show Gallery -->
-	
-	<!-- Container for the image gallery -->
-<div class="container">
-
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-      <img src="https://i.imgur.com/7EMtgdur.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="https://i.imgur.com/m6fFYDq.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="img_lights_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="https://i.imgur.com/7EMtgdur.png" style="width:100%" onclick="currentSlide(1)" alt="Believe New York Volunteer Poster">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="https://i.imgur.com/m6fFYDq.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-  </div>
 </div>
-	
-	
-	<!-- Responsive Art Gallery
-	
-	
+
+<!-- Portfoilo Carousel -->
+
+<div class="carousel carousel-slider center">
+<div class="carousel-fixed-item center">
+<a class="btn waves-effect white grey-text darken-text-2">button</a>
+</div>
+<div class="carousel-item red white-text" href="#one!">
+<img src="https://i.imgur.com/7EMtgdur.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
+<h3>Believe New York Canvassing Volunteer</h3>
+<p>General use poster with a QR code link to the organizations contact page for volunteers</p>
+</div>
+<div class="carousel-item amber white-text" href="#two!">
+<img src="https://i.imgur.com/m6fFYDq.png" alt="Believe New York" style="width:100%">
+<h3>Believe New York Brochure</h3>
+<p>Front Page brochure handout with original Illustrator creations</p>
+</div>
+<div class="carousel-item green white-text" href="#three!">
+<img src="https://i.imgur.com/XmTOxc9.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
+<h3>Believe New York Canvassing Poster</h3>
+<p>General use poster for canvassing, grassroot marketing</p>
+</div>
+<div class="carousel-item blue white-text" href="#four!">
+<h2>Fourth Panel</h2>
+<img src="https://i.imgur.com/d7048Yf.png" alt="The Appraisal Lane Texas Header" style="width:100%">
+<h3>The Appraisal Lane Texas Email Header</h3>
+<p>Email Header for regional push starting in Texas</p>
+</div>
+</div>
+
+
+<!-- Responsive Art Gallery
+
+
 <div class="main2">
 
 <h2 style="color: white;">PORTFOLIO</h2>
@@ -132,134 +84,135 @@ function showSlides(n) {
 
 <!-- Portfolio Gallery Grid 
 <div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="https://i.imgur.com/7EMtgdur.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
-      <h3>Believe New York Canvassing Volunteer</h3>
-      <p>General use poster with a QR code link to the organizations contact page for volunteers</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="https://i.imgur.com/m6fFYDq.png" alt="Believe New York" style="width:100%">
-      <h3>Believe New York Brochure</h3>
-      <p>Front Page brochure handout with original Illustrator creations</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="https://i.imgur.com/XmTOxc9.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
-      <h3>Believe New York Canvassing Poster</h3>
-      <p>General use poster for canvassing, grassroot marketing</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="https://i.imgur.com/d7048Yf.png" alt="The Appraisal Lane Texas Header" style="width:100%">
-      <h3>The Appraisal Lane Texas Email Header</h3>
-      <p>Email Header for regional push starting in Texas</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="https://i.imgur.com/GxFycdm.gif" alt="The Appraisal Lane Animated GIF" style="width:100%">
-      <h3>The Appraisal Lane Animated 'How-To'</h3>
-      <p>An animated GIF I used iPhone screen recording, Illustrator, key framing, and Final Cut to create. It was used in emails for clients as part of an onboarding/best practices email campaigns</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-      <img src="https://i.imgur.com/uQmHQV1.jpg" alt="ABC Email Header Holidays" style="width:100%">
-      <h3>American Botanical Council Holiday Email Header</h3>
-      <p>Winter holidays email header for the American Botanical Council</p>
-    </div>
-  </div>
+<div class="column">
+<div class="content">
+<img src="https://i.imgur.com/7EMtgdur.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
+<h3>Believe New York Canvassing Volunteer</h3>
+<p>General use poster with a QR code link to the organizations contact page for volunteers</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<img src="https://i.imgur.com/m6fFYDq.png" alt="Believe New York" style="width:100%">
+<h3>Believe New York Brochure</h3>
+<p>Front Page brochure handout with original Illustrator creations</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<img src="https://i.imgur.com/XmTOxc9.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
+<h3>Believe New York Canvassing Poster</h3>
+<p>General use poster for canvassing, grassroot marketing</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<img src="https://i.imgur.com/d7048Yf.png" alt="The Appraisal Lane Texas Header" style="width:100%">
+<h3>The Appraisal Lane Texas Email Header</h3>
+<p>Email Header for regional push starting in Texas</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<img src="https://i.imgur.com/GxFycdm.gif" alt="The Appraisal Lane Animated GIF" style="width:100%">
+<h3>The Appraisal Lane Animated 'How-To'</h3>
+<p>An animated GIF I used iPhone screen recording, Illustrator, key framing, and Final Cut to create. It was used in emails for clients as part of an onboarding/best practices email campaigns</p>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<img src="https://i.imgur.com/uQmHQV1.jpg" alt="ABC Email Header Holidays" style="width:100%">
+<h3>American Botanical Council Holiday Email Header</h3>
+<p>Winter holidays email header for the American Botanical Council</p>
+</div>
+</div>
 </div>
 
 
 </div>
-	
-	 END Art Gallery -->
-	
-	<!--- Background for Main Page Content --->
+
+END Art Gallery -->
+
+<!--- Background for Main Page Content --->
 <div class="main">
-	
-	<!-- Bio Card -->
-	
-	<div class="card">
-		<div style="overflow: hidden; min-width: 200px; margin:"> 
-			<div class="bio"> 
-				<p class="p1"><img class="imgcard" src="https://i.imgur.com/V8LgCJV.jpg" alt="Jackson Curtin"> Burning Candle Marketing was founded by Jackson Curtin during the Great Quarantine of 2020. Historically Mr. Curtin has had a wealth of experience working at the forefront of new and exciting operations. Currently he is co-founding Believe New York, a non-profit that seeks to end homelessness through a sustainable, systemic grassroots approach to community empowerment.</p>
-			</div>
-		</div>
-	
-	</div>
-	
-	<!-- Work History Card Within Common inline styling tags for text:  <p> paragraph <h1> Heading (large font) <h2> Heading 2/ Headline font <b> Bold <br> Stops the line of text and jumps to the next row down, does not require closing tag -->
-	
-	
+
+
+
+<!-- Work History Card Within Common inline styling tags for text:  <p> paragraph <h1> Heading (large font) <h2> Heading 2/ Headline font <b> Bold <br> Stops the line of text and jumps to the next row down, does not require closing tag -->
+
+
 <div class="card2">
-	<div style="overflow: hidden; min-width: 200px;"> 
-		<div class="flip-card">
-  			<div class="flip-card-inner">
-    			<div class="flip-card-front">
-      				<img src="https://i.imgur.com/DthiolU.png" alt="Believe New York" class="BNY">
-    		</div>
-    		<div class="flip-card-back">
-      			<h1>Believe New York</h1>
-      			<p>Director of Development and Marketing</p>
-      			<p>May 2020 - Present</p>
-    		</div>
- 		 </div>
-		</div>
-	
+<div style="overflow: hidden; min-width: 200px;"> 
+  <div class="flip-card">
+		<div class="flip-card-inner">
+		  <div class="flip-card-front">
+				<img src="https://i.imgur.com/DthiolU.png" alt="Believe New York" class="BNY">
+	  </div>
+	  <div class="flip-card-back">
+			<h1>Believe New York</h1>
+			<p>Director of Development and Marketing</p>
+			<p>May 2020 - Present</p>
+	  </div>
 	</div>
-	<div style="overflow: hidden; min-width: 200px;"> 
-		<div class="flip-card">
-  			<div class="flip-card-inner">
-    			<div class="flip-card-front">
-      				<img src="https://www.gannett-cdn.com/-mm-/64d7dd99b80220cccc5735f655bcf32babd88c5f/c=29-0-296-201/local/-/media/2016/03/16/CarolinaGroup/Asheville/635937376046154636-aspcalogo.jpg?width=534&height=401&fit=crop" alt="ASPCA" class="ASPCA">
-    		</div>
-    		<div class="flip-card-back">
-      			<h1>ASPCA/ <br>Upfundrasing</h1>
-      			<p>Grassroot Marketing Manager</p>
-      			<p>July 2019 - Feburary 2020</p>
-    		</div>
- 		 </div>
-		</div>
-	
+  </div>
+
+</div>
+<div style="overflow: hidden; min-width: 200px;"> 
+  <div class="flip-card">
+		<div class="flip-card-inner">
+		  <div class="flip-card-front">
+				<img src="https://www.gannett-cdn.com/-mm-/64d7dd99b80220cccc5735f655bcf32babd88c5f/c=29-0-296-201/local/-/media/2016/03/16/CarolinaGroup/Asheville/635937376046154636-aspcalogo.jpg?width=534&height=401&fit=crop" alt="ASPCA" class="ASPCA">
+	  </div>
+	  <div class="flip-card-back">
+			<h1>ASPCA/ <br>Upfundrasing</h1>
+			<p>Grassroot Marketing Manager</p>
+			<p>July 2019 - Feburary 2020</p>
+	  </div>
 	</div>
-	<div style="overflow: hidden; min-width: 200px;"> 
-		<div class="flip-card">
-  			<div class="flip-card-inner">
-    			<div class="flip-card-front">
-      				<img src="https://abc.herbalgram.org/images/content/pagebuilder/ABC-logo-since1988-FINAL-vert_2020.jpg" alt="The American Botanical Council" class="ABC">
-    		</div>
-    		<div class="flip-card-back">
-      			<h1>The American Botanical Council</h1>
-      			<p>Marketing Communications and Webmaster</p>
-      			<p>July 2018 - May 2019</p>
-    		</div>
- 		 </div> 
-			
-		</div>
+  </div>
+
+</div>
+<div style="overflow: hidden; min-width: 200px;"> 
+  <div class="flip-card">
+		<div class="flip-card-inner">
+		  <div class="flip-card-front">
+				<img src="https://abc.herbalgram.org/images/content/pagebuilder/ABC-logo-since1988-FINAL-vert_2020.jpg" alt="The American Botanical Council" class="ABC">
+	  </div>
+	  <div class="flip-card-back">
+			<h1>The American Botanical Council</h1>
+			<p>Marketing Communications and Webmaster</p>
+			<p>July 2018 - May 2019</p>
+	  </div>
+	</div> 
+	  
+  </div>
+</div>
+<div style="overflow: hidden; min-width: 200px;"> 
+  <div class="flip-card">
+		<div class="flip-card-inner">
+		  <div class="flip-card-front">
+				<img src="https://www.theappraisallane.com/assets/TAL-Logo-New-e323e9ffdf.png" alt="The Appraisal Lane" class="TAL">
+	  </div>
+	  <div class="flip-card-back">
+			<h1>The Appraisal Lane</h1>
+			<p>Account Manager</p>
+			<p>Feb 2017 - July 2018</p>
+	  </div>
 	</div>
-	<div style="overflow: hidden; min-width: 200px;"> 
-		<div class="flip-card">
-  			<div class="flip-card-inner">
-    			<div class="flip-card-front">
-      				<img src="https://www.theappraisallane.com/assets/TAL-Logo-New-e323e9ffdf.png" alt="The Appraisal Lane" class="TAL">
-    		</div>
-    		<div class="flip-card-back">
-      			<h1>The Appraisal Lane</h1>
-      			<p>Account Manager</p>
-      			<p>Feb 2017 - July 2018</p>
-    		</div>
- 		 </div>
-		</div>
+  </div>
 
 </div>
 </div>
 </div>
+<footer>
+  <!-- Bio Card -->
+
+
+<div style="overflow: hidden; min-width: 200px; margin:"> 
+	  <div class="bio"> 
+		  <p class="p1"><img class="imgcard" src="https://i.imgur.com/V8LgCJV.jpg" alt="Jackson Curtin"> Burning Candle Marketing was founded by Jackson Curtin during the Great Quarantine of 2020. Historically Mr. Curtin has had a wealth of experience working at the forefront of new and exciting operations. Currently he is co-founding Believe New York, a non-profit that seeks to end homelessness through a sustainable, systemic grassroots approach to community empowerment.</p>
+	  </div>
+  </div>
+</footer>
 </body>
 </html>

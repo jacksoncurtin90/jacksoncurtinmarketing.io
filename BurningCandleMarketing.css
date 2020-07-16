@@ -58,94 +58,9 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 
-/* Portfolio Slideshow */
+/* Portfolio Carousel */
 
-* {
-  box-sizing: border-box;
-}
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
 
 /* Responsive Art Portfolio 
 
@@ -226,54 +141,6 @@ h1 {
 	padding: 3%;
 }
 
-/* Bio Card */
-
-.card { 
-	background: blue;  
-	width: 90%; 
-	max-width: 800px; 
-	height: auto;
-	padding: 5%;  
-	overflow: auto;
-	box-shadow: 2px 3px 3px black;
-   
-}
-	
-.bio { 
-	width: 90%;
-	max-width: 700px;
-	height: 90%;
-	color: black; 
-	background: white; 
-	font-size: 110%; 
-	padding: 5%; 
-	margin: auto; 
-	overflow: auto;
-	box-shadow: 5px 6px 6px black;
-}
-
-.imgcard {
-	width: 50%; 
-	max-width: 150px; 
-	height: auto; 
-	float:left; 
-	border-radius: 50%; 
-	background: white;
-	margin-right: 30px;
-	margin-bottom: 10px;
-	border: 5px solid navy; 
-	box-shadow: 2px 3px 3px black;
-}
-
-.p1 {
-	margin: 0% 10% 0% 10%;
-	border: 10px solid blue;
-	padding: 5%;
-	border-radius: 15%;
-	overflow: auto;
-	box-shadow: 2px 3px 3px black;
-	background: #add8e6;
-}
 
 /* Work History Cards */
 
@@ -393,12 +260,50 @@ h1 {
 
 
 
-/* Footer 
+
 
 footer {
 	background: black;
 	width: 100%;
-	padding: 10%;
+	max-width: 1400px;
+	padding: 2%;
 }
 
-*/
+/* Bio Card */
+	
+.bio { 
+	width: 50%;
+	max-width: 1000px;
+	height: auto;
+	color: black; 
+	background: white; 
+	font-size: 100%; 
+	padding: 2%; 
+	float: left; 
+	overflow: auto;
+	border-radius: 15%;
+	box-shadow: 5px 6px 6px black;
+}
+
+.imgcard {
+	width: 25%; 
+	max-width: 150px; 
+	height: auto; 
+	float:left; 
+	border-radius: 50%; 
+	background: white;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	border: 5px solid navy; 
+	box-shadow: 2px 3px 3px black;
+}
+
+.p1 {
+	margin: 0% 10% 0% 10%;
+	border: 10px solid cornflowerblue;
+	padding: 5%;
+	border-radius: 15%;
+	overflow: auto;
+	box-shadow: 2px 3px 3px black;
+	background: white;
+}
