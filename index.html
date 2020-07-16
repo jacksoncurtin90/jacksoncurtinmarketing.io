@@ -3,80 +3,342 @@
 <title>Burning Candle Marketing</title>
 <head>
 <link href="BurningCandleMarketing.css" rel="stylesheet" type="text/css">
-
-<script>
-	document.addEventListener('DOMContentLoaded', function() {
-var elems = document.querySelectorAll('.carousel');
-var instances = M.Carousel.init(elems, options);
-});
-
-// Or with jQuery
-
-$(document).ready(function(){
-$('.carousel').carousel();
-});
-	var instance = M.Carousel.init({
-fullWidth: true,
-indicators: true
-});
-
-// Or with jQuery
-
-$('.carousel.carousel-slider').carousel({
-fullWidth: true,
-indicators: true
-});
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body style="-webkit-backface-visibility: hidden;">
-<!-- Header -->
-<header class="header">
- <img class="headerimg" src="https://i.imgur.com/GElzkSC.png" alt="Burning Candle Marketing"> 
-</header>
-<!-- Menu Bar -->
-<div>
-<ul class="topnav">
-<li><a href="https://www.linkedin.com/in/jackson-curtin-578181110/">Home</a></li>
-<li><a href="#news">Services</a></li>
-<li><a href="#contact">Pricing</a></li>
-<li><a href="#contact">Contact</a></li>
+	<!-- Header -->
+    <header class="header">
+       <img class="headerimg" src="https://i.imgur.com/GElzkSC.png" alt="Burning Candle Marketing"> 
+    </header>
+	<!-- Menu Bar -->
+	<div>
+    <ul class="topnav">
+  <li><a href="https://www.linkedin.com/in/jackson-curtin-578181110/">Home</a></li>
+  <li><a href="#news">Services</a></li>
+  <li><a href="#contact">Pricing</a></li>
+  <li><a href="#contact">Contact</a></li>
 </ul>
-</div>
+	</div>
+	
+	<!-- Portfoilo Carousel -->
+	
+    <script src="slider.js" type="text/javascript"></script>
 
-<!-- Portfoilo Carousel -->
+    <script type="text/javascript">
 
-<div class="carousel carousel-slider center">
-<div class="carousel-fixed-item center">
-<a class="btn waves-effect white grey-text darken-text-2">button</a>
-</div>
-<div class="carousel-item red white-text" href="#one!">
-<img src="https://i.imgur.com/7EMtgdur.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
-<h3>Believe New York Canvassing Volunteer</h3>
-<p>General use poster with a QR code link to the organizations contact page for volunteers</p>
-</div>
-<div class="carousel-item amber white-text" href="#two!">
-<img src="https://i.imgur.com/m6fFYDq.png" alt="Believe New York" style="width:100%">
-<h3>Believe New York Brochure</h3>
-<p>Front Page brochure handout with original Illustrator creations</p>
-</div>
-<div class="carousel-item green white-text" href="#three!">
-<img src="https://i.imgur.com/XmTOxc9.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
-<h3>Believe New York Canvassing Poster</h3>
-<p>General use poster for canvassing, grassroot marketing</p>
-</div>
-<div class="carousel-item blue white-text" href="#four!">
-<h2>Fourth Panel</h2>
-<img src="https://i.imgur.com/d7048Yf.png" alt="The Appraisal Lane Texas Header" style="width:100%">
-<h3>The Appraisal Lane Texas Email Header</h3>
-<p>Email Header for regional push starting in Texas</p>
-</div>
-</div>
+        window.jssor_1_slider_init = function() {
 
 
-<!-- Responsive Art Gallery
+
+            var jssor_1_SlideshowTransitions = [
+
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+
+            ];
 
 
+
+            var jssor_1_options = {
+
+              $AutoPlay: 1,
+
+              $SlideshowOptions: {
+
+                $Class: $JssorSlideshowRunner$,
+
+                $Transitions: jssor_1_SlideshowTransitions,
+
+                $TransitionsOrder: 1
+
+              },
+
+              $ArrowNavigatorOptions: {
+
+                $Class: $JssorArrowNavigator$
+
+              },
+
+              $ThumbnailNavigatorOptions: {
+
+                $Class: $JssorThumbnailNavigator$,
+
+                $Orientation: 2,
+
+                $NoDrag: true
+
+              }
+
+            };
+
+
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+
+
+            /*#region responsive code begin*/
+
+
+
+            var MAX_WIDTH = 980;
+
+
+
+            function ScaleSlider() {
+
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+
+                var containerWidth = containerElement.clientWidth;
+
+
+
+                if (containerWidth) {
+
+
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+
+                }
+
+                else {
+
+                    window.setTimeout(ScaleSlider, 30);
+
+                }
+
+            }
+
+
+
+            ScaleSlider();
+
+
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+
+            /*#endregion responsive code end*/
+
+        };
+
+    </script>
+
+    <style>
+
+        /*jssor slider loading skin spin css*/
+
+        .jssorl-009-spin img {
+
+            animation-name: jssorl-009-spin;
+
+            animation-duration: 1.6s;
+
+            animation-iteration-count: infinite;
+
+            animation-timing-function: linear;
+
+        }
+
+
+
+        @keyframes jssorl-009-spin {
+
+            from { transform: rotate(0deg); }
+
+            to { transform: rotate(360deg); }
+
+        }
+
+
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+
+        .jssora061:hover {opacity:.8;}
+
+        .jssora061.jssora061dn {opacity:.5;}
+
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+
+    </style>
+
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+
+        <!-- Loading Screen -->
+
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+
+        </div>
+
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+
+            <div>
+
+                <img data-u="image" src="https://i.imgur.com/7EMtgdur.png" />
+
+                <div u="thumb">Believe New York Canvassing Poster Volunteer 2020
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/043.jpg" />
+
+                <div u="thumb">Slide Description 002
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/046.jpg" />
+
+                <div u="thumb">Slide Description 003
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/047.jpg" />
+
+                <div u="thumb">Slide Description 004
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/048.jpg" />
+
+                <div u="thumb">Slide Description 005
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/044.jpg" />
+
+                <div u="thumb">Slide Description 006
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/050.jpg" />
+
+                <div u="thumb">Slide Description 007
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/049.jpg" />
+
+                <div u="thumb">Slide Description 008
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/052.jpg" />
+
+                <div u="thumb">Slide Description 009
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <img data-u="image" src="img/051.jpg" />
+
+                <div u="thumb">Slide Description 010
+
+                </div>
+
+            </div>
+
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+
+        <!-- Thumbnail Navigator -->
+
+        <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+
+            <div u="slides">
+
+                <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+
+                    <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Arrow Navigator -->
+
+        <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+
+                <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+
+            </svg>
+
+        </div>
+
+        <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+
+                <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+
+            </svg>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript">jssor_1_slider_init();
+
+    </script>
+
+    <!-- #endregion Jssor Slider End -->
+	
+	
+	
+	
+	<!-- Responsive Art Gallery
+	
+	
 <div class="main2">
 
 <h2 style="color: white;">PORTFOLIO</h2>
@@ -84,135 +346,134 @@ indicators: true
 
 <!-- Portfolio Gallery Grid 
 <div class="row">
-<div class="column">
-<div class="content">
-<img src="https://i.imgur.com/7EMtgdur.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
-<h3>Believe New York Canvassing Volunteer</h3>
-<p>General use poster with a QR code link to the organizations contact page for volunteers</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-<img src="https://i.imgur.com/m6fFYDq.png" alt="Believe New York" style="width:100%">
-<h3>Believe New York Brochure</h3>
-<p>Front Page brochure handout with original Illustrator creations</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-<img src="https://i.imgur.com/XmTOxc9.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
-<h3>Believe New York Canvassing Poster</h3>
-<p>General use poster for canvassing, grassroot marketing</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-<img src="https://i.imgur.com/d7048Yf.png" alt="The Appraisal Lane Texas Header" style="width:100%">
-<h3>The Appraisal Lane Texas Email Header</h3>
-<p>Email Header for regional push starting in Texas</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-<img src="https://i.imgur.com/GxFycdm.gif" alt="The Appraisal Lane Animated GIF" style="width:100%">
-<h3>The Appraisal Lane Animated 'How-To'</h3>
-<p>An animated GIF I used iPhone screen recording, Illustrator, key framing, and Final Cut to create. It was used in emails for clients as part of an onboarding/best practices email campaigns</p>
-</div>
-</div>
-<div class="column">
-<div class="content">
-<img src="https://i.imgur.com/uQmHQV1.jpg" alt="ABC Email Header Holidays" style="width:100%">
-<h3>American Botanical Council Holiday Email Header</h3>
-<p>Winter holidays email header for the American Botanical Council</p>
-</div>
-</div>
-</div>
-
-
+  <div class="column">
+    <div class="content">
+      <img src="https://i.imgur.com/7EMtgdur.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
+      <h3>Believe New York Canvassing Volunteer</h3>
+      <p>General use poster with a QR code link to the organizations contact page for volunteers</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://i.imgur.com/m6fFYDq.png" alt="Believe New York" style="width:100%">
+      <h3>Believe New York Brochure</h3>
+      <p>Front Page brochure handout with original Illustrator creations</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://i.imgur.com/XmTOxc9.png" alt="Believe New York Canvassing Poster 1" style="width:100%">
+      <h3>Believe New York Canvassing Poster</h3>
+      <p>General use poster for canvassing, grassroot marketing</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://i.imgur.com/d7048Yf.png" alt="The Appraisal Lane Texas Header" style="width:100%">
+      <h3>The Appraisal Lane Texas Email Header</h3>
+      <p>Email Header for regional push starting in Texas</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://i.imgur.com/GxFycdm.gif" alt="The Appraisal Lane Animated GIF" style="width:100%">
+      <h3>The Appraisal Lane Animated 'How-To'</h3>
+      <p>An animated GIF I used iPhone screen recording, Illustrator, key framing, and Final Cut to create. It was used in emails for clients as part of an onboarding/best practices email campaigns</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://i.imgur.com/uQmHQV1.jpg" alt="ABC Email Header Holidays" style="width:100%">
+      <h3>American Botanical Council Holiday Email Header</h3>
+      <p>Winter holidays email header for the American Botanical Council</p>
+    </div>
+  </div>
 </div>
 
-END Art Gallery -->
 
-<!--- Background for Main Page Content --->
+</div>
+	
+	 END Art Gallery -->
+	
+	<!--- Background for Main Page Content --->
 <div class="main">
-
-
-
-<!-- Work History Card Within Common inline styling tags for text:  <p> paragraph <h1> Heading (large font) <h2> Heading 2/ Headline font <b> Bold <br> Stops the line of text and jumps to the next row down, does not require closing tag -->
-
-
+	
+	
+	
+	<!-- Work History Card Within Common inline styling tags for text:  <p> paragraph <h1> Heading (large font) <h2> Heading 2/ Headline font <b> Bold <br> Stops the line of text and jumps to the next row down, does not require closing tag -->
+	
+	
 <div class="card2">
-<div style="overflow: hidden; min-width: 200px;"> 
-  <div class="flip-card">
-		<div class="flip-card-inner">
-		  <div class="flip-card-front">
-				<img src="https://i.imgur.com/DthiolU.png" alt="Believe New York" class="BNY">
-	  </div>
-	  <div class="flip-card-back">
-			<h1>Believe New York</h1>
-			<p>Director of Development and Marketing</p>
-			<p>May 2020 - Present</p>
-	  </div>
+	<div style="overflow: hidden; min-width: 200px;"> 
+		<div class="flip-card">
+  			<div class="flip-card-inner">
+    			<div class="flip-card-front">
+      				<img src="https://i.imgur.com/DthiolU.png" alt="Believe New York" class="BNY">
+    		</div>
+    		<div class="flip-card-back">
+      			<h1>Believe New York</h1>
+      			<p>Director of Development and Marketing</p>
+      			<p>May 2020 - Present</p>
+    		</div>
+ 		 </div>
+		</div>
+	
 	</div>
-  </div>
-
-</div>
-<div style="overflow: hidden; min-width: 200px;"> 
-  <div class="flip-card">
-		<div class="flip-card-inner">
-		  <div class="flip-card-front">
-				<img src="https://www.gannett-cdn.com/-mm-/64d7dd99b80220cccc5735f655bcf32babd88c5f/c=29-0-296-201/local/-/media/2016/03/16/CarolinaGroup/Asheville/635937376046154636-aspcalogo.jpg?width=534&height=401&fit=crop" alt="ASPCA" class="ASPCA">
-	  </div>
-	  <div class="flip-card-back">
-			<h1>ASPCA/ <br>Upfundrasing</h1>
-			<p>Grassroot Marketing Manager</p>
-			<p>July 2019 - Feburary 2020</p>
-	  </div>
+	<div style="overflow: hidden; min-width: 200px;"> 
+		<div class="flip-card">
+  			<div class="flip-card-inner">
+    			<div class="flip-card-front">
+      				<img src="https://www.gannett-cdn.com/-mm-/64d7dd99b80220cccc5735f655bcf32babd88c5f/c=29-0-296-201/local/-/media/2016/03/16/CarolinaGroup/Asheville/635937376046154636-aspcalogo.jpg?width=534&height=401&fit=crop" alt="ASPCA" class="ASPCA">
+    		</div>
+    		<div class="flip-card-back">
+      			<h1>ASPCA/ <br>Upfundrasing</h1>
+      			<p>Grassroot Marketing Manager</p>
+      			<p>July 2019 - Feburary 2020</p>
+    		</div>
+ 		 </div>
+		</div>
+	
 	</div>
-  </div>
-
-</div>
-<div style="overflow: hidden; min-width: 200px;"> 
-  <div class="flip-card">
-		<div class="flip-card-inner">
-		  <div class="flip-card-front">
-				<img src="https://abc.herbalgram.org/images/content/pagebuilder/ABC-logo-since1988-FINAL-vert_2020.jpg" alt="The American Botanical Council" class="ABC">
-	  </div>
-	  <div class="flip-card-back">
-			<h1>The American Botanical Council</h1>
-			<p>Marketing Communications and Webmaster</p>
-			<p>July 2018 - May 2019</p>
-	  </div>
-	</div> 
-	  
-  </div>
-</div>
-<div style="overflow: hidden; min-width: 200px;"> 
-  <div class="flip-card">
-		<div class="flip-card-inner">
-		  <div class="flip-card-front">
-				<img src="https://www.theappraisallane.com/assets/TAL-Logo-New-e323e9ffdf.png" alt="The Appraisal Lane" class="TAL">
-	  </div>
-	  <div class="flip-card-back">
-			<h1>The Appraisal Lane</h1>
-			<p>Account Manager</p>
-			<p>Feb 2017 - July 2018</p>
-	  </div>
+	<div style="overflow: hidden; min-width: 200px;"> 
+		<div class="flip-card">
+  			<div class="flip-card-inner">
+    			<div class="flip-card-front">
+      				<img src="https://abc.herbalgram.org/images/content/pagebuilder/ABC-logo-since1988-FINAL-vert_2020.jpg" alt="The American Botanical Council" class="ABC">
+    		</div>
+    		<div class="flip-card-back">
+      			<h1>The American Botanical Council</h1>
+      			<p>Marketing Communications and Webmaster</p>
+      			<p>July 2018 - May 2019</p>
+    		</div>
+ 		 </div> 
+			
+		</div>
 	</div>
-  </div>
+	<div style="overflow: hidden; min-width: 200px;"> 
+		<div class="flip-card">
+  			<div class="flip-card-inner">
+    			<div class="flip-card-front">
+      				<img src="https://www.theappraisallane.com/assets/TAL-Logo-New-e323e9ffdf.png" alt="The Appraisal Lane" class="TAL">
+    		</div>
+    		<div class="flip-card-back">
+      			<h1>The Appraisal Lane</h1>
+      			<p>Account Manager</p>
+      			<p>Feb 2017 - July 2018</p>
+    		</div>
+ 		 </div>
+		</div>
 
 </div>
 </div>
 </div>
-<footer>
-  <!-- Bio Card -->
-
-
-<div style="overflow: hidden; min-width: 200px; margin:"> 
-	  <div class="bio"> 
-		  <p class="p1"><img class="imgcard" src="https://i.imgur.com/V8LgCJV.jpg" alt="Jackson Curtin"> Burning Candle Marketing was founded by Jackson Curtin during the Great Quarantine of 2020. Historically Mr. Curtin has had a wealth of experience working at the forefront of new and exciting operations. Currently he is co-founding Believe New York, a non-profit that seeks to end homelessness through a sustainable, systemic grassroots approach to community empowerment.</p>
-	  </div>
-  </div>
-</footer>
+	<footer>
+		<!-- Bio Card -->
+	
+	
+	<div style="overflow: hidden; min-width: 200px; margin:"> 
+			<div class="bio"> 
+				<p class="p1"><img class="imgcard" src="https://i.imgur.com/V8LgCJV.jpg" alt="Jackson Curtin"> Burning Candle Marketing was founded by Jackson Curtin during the Great Quarantine of 2020. Historically Mr. Curtin has had a wealth of experience working at the forefront of new and exciting operations. Currently he is co-founding Believe New York, a non-profit that seeks to end homelessness through a sustainable, systemic grassroots approach to community empowerment.</p>
+			</div>
+		</div>
+	</footer>
 </body>
-</html>
