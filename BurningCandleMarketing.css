@@ -307,3 +307,11 @@ footer {
 	box-shadow: 2px 3px 3px black;
 	background: white;
 }
+
+.imgcarousel {
+	width: 50%;
+	max-width: 450px;
+	height: auto;
+	padding: 2%;
+	
+}
