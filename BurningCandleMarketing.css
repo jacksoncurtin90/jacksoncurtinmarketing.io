@@ -277,7 +277,7 @@ footer {
 	background: white; 
 	font-size: 100%; 
 	padding: 2%; 
-	float: left; 
+	margin: auto;
 	overflow: auto;
 	border-radius: 15%;
 	box-shadow: 5px 6px 6px black;
@@ -321,9 +321,6 @@ footer {
 100% { left: -400%; }
 }
 
-body{
-  margin: 0; background: #111;
-}
 
 /*------------------------------------*\
     $CAROUSEL
@@ -332,7 +329,8 @@ body{
     margin:0;
     padding:0;
     overflow:hidden;
-    width:100%;
+	width:100%;
+	max-width: 1000px;
     background: #000;
 }
 .panes{
@@ -354,8 +352,9 @@ body{
 }
 .carousel img{
     display:block;
-    width:100%;
-    max-width:100%;
+    width:50%;
+	max-width:500px%;
+	padding: 2%;
 }
 .carousel h2{
     font-family: Fira Sans, sans-serif;
@@ -368,5 +367,5 @@ body{
     text-align:center;
     color:#fff;
     text-shadow: 1px 1px 4px #000;
-    background-color:rgba(250,250,250,0.25);
+    background-color:black;
 }
