@@ -326,7 +326,7 @@ footer {
     $CAROUSEL
 \*------------------------------------*/
 .carousel{
-    margin:0;
+    margin:auto;
     padding:0;
     overflow:hidden;
 	width:100%;
@@ -334,8 +334,8 @@ footer {
     background: #000;
 }
 .panes{
-    margin:0;
-    padding:0;
+    margin:auto;
+    padding:2%;
     list-style:none;
     position:relative;
     width:500%; /* Number of panes * 100% */
