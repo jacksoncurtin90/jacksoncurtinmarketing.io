@@ -12,11 +12,9 @@ body {
     font-size: larger;
     padding: 5%;
     margin: auto;
-    color: cornsilk;
     background-color: #000000;
     text-align: center;
     width: 100%;
-    box-shadow:0 4% 8% 0 cornflowerblue; opacity: 65%; 
 }
 
 .headerimg {
