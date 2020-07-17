@@ -332,15 +332,14 @@ footer {
   // Styling
   
   section {
-	  background:black;
-	  padding: 2%;
-	  margin: auto;
+	  background: #F4F4F4;
+	  padding: 50px 0;
   }
   
   .container {
 	  max-width: 1044px;
-	  margin: auto;
-	  padding: 2%;
+	  margin: 0 auto;
+	  padding: 0 20px;
   }
   
   .carousel {
@@ -471,8 +470,7 @@ footer {
 	  img {
 		  display: block;
 		  width: 100%;
-		  max-width: 450px;
-		  height: auto;
+		  height: 100%;
 		  object-fit: cover;
 	  }
   }
