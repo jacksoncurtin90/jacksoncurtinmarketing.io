@@ -21,17 +21,39 @@
 </ul>
 	</div>
 	
-	<section class="carousel">
-		<input type="checkbox" id="toggle">
-		<label for="toggle" onclick>pausar</label>
-		<div class="paineis">
-		<article class="page1"><img src="http://placehold.it/350x150&text=Slide%201" alt=""></article>
-		<article class="page2"><img src="http://placehold.it/350x150&text=Slide%202" alt=""></article>
-		<article class="page3"><img src="http://placehold.it/350x150&text=Slide%203" alt=""></article>
-		<article class="page4"><img src="http://placehold.it/350x150&text=Slide%204" alt=""></article>
-		<article class="page5"><img src="http://placehold.it/350x150&text=Slide%205" alt=""></article>
-		  </div>
-	  </section>
+	<div class="carousel">
+		<div class="carousel-inner">
+			<input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+			<div class="carousel-item">
+				<img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
+			</div>
+			<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+			<div class="carousel-item">
+				<img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+			</div>
+			<input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+			<div class="carousel-item">
+				<img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+			</div>
+			<label for="carousel-3" class="carousel-control prev control-1">‹</label>
+			<label for="carousel-2" class="carousel-control next control-1">›</label>
+			<label for="carousel-1" class="carousel-control prev control-2">‹</label>
+			<label for="carousel-3" class="carousel-control next control-2">›</label>
+			<label for="carousel-2" class="carousel-control prev control-3">‹</label>
+			<label for="carousel-1" class="carousel-control next control-3">›</label>
+			<ol class="carousel-indicators">
+				<li>
+					<label for="carousel-1" class="carousel-bullet">•</label>
+				</li>
+				<li>
+					<label for="carousel-2" class="carousel-bullet">•</label>
+				</li>
+				<li>
+					<label for="carousel-3" class="carousel-bullet">•</label>
+				</li>
+			</ol>
+		</div>
+	</div>
 	
 	<!-- Responsive Art Gallery
 	
