@@ -58,7 +58,7 @@ ul.topnav li.right {float: right;}
 
 
 
-Responsive Art Portfolio 
+/* Responsive Art Portfolio 
 
 * {
   box-sizing: border-box;
@@ -87,39 +87,39 @@ h1 {
   margin: 8px -16px;
 }
 
-Add padding BETWEEN each column (if you want) 
+/* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
   padding: 8px;
 }
 
-Create four equal columns that floats next to each other 
+/* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
 }
 
-Clear floats after rows 
+/* Clear floats after rows */ 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-Content 
+/* Content */ 
 .content {
   background-color: white;
   padding: 10px;
 }
 
-Responsive layout - makes a two column-layout instead of four columns 
+/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-Responsive layout - makes the two columns stack on top of each other instead of next to each other 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ 
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -307,8 +307,9 @@ footer {
 
 
 .pic-ctn {
-	width: 100vw;
-	height: 200px;
+	width: 33.33%;
+	
+	height: auto;
   }
   
   @keyframes display {
@@ -346,18 +347,26 @@ footer {
 	top: 0;
 	left: calc(50% - 100px);
 	opacity: 0;
-	animation: display 10s infinite;
+	animation: display 20s infinite;
   }
   
   img:nth-child(2) {
-	animation-delay: 2s;
-  }
-  img:nth-child(3) {
 	animation-delay: 4s;
   }
-  img:nth-child(4) {
-	animation-delay: 6s;
-  }
-  img:nth-child(5) {
+  img:nth-child(3) {
 	animation-delay: 8s;
   }
+  img:nth-child(4) {
+	animation-delay: 12s;
+  }
+  img:nth-child(5) {
+	animation-delay: 16s;
+  }
+
+.SliderImg {
+	width: 33.33%;
+	max-width: 400px;
+	height: auto;
+	border: 5px solid cornflowerblue;
+    
+}
