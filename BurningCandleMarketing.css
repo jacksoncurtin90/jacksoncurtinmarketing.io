@@ -310,6 +310,7 @@ footer {
 	width: 80%;
 	max-width: 500px;
 	height: auto;
+	max-height: 800px;
 	overflow: auto;
 	margin: auto;
 	padding: 2%;
