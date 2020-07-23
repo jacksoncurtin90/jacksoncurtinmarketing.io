@@ -308,8 +308,8 @@ footer {
 
 .pic-ctn {
 	width: 33.33%;
-	
 	height: auto;
+	overflow: auto;
   }
   
   @keyframes display {
@@ -363,10 +363,56 @@ footer {
 	animation-delay: 16s;
   }
 
-.SliderImg {
+.SliderImg1 {
 	width: 33.33%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
+	box-shadow: 2px 3px 3px black;
+    
+}
+
+.SliderImg2 {
+	width: 33.33%;
+	max-width: 400px;
+	height: auto;
+	border: 5px solid cornflowerblue;
+	box-shadow: 2px 3px 3px black;
+    
+}
+
+.SliderImg3 {
+	width: 33.33%;
+	max-width: 400px;
+	height: auto;
+	border: 5px solid cornflowerblue;
+	box-shadow: 2px 3px 3px black;
+    
+}
+
+.SliderImg4 {
+	width: 33.33%;
+	max-width: 400px;
+	height: auto;
+	border: 5px solid cornflowerblue;
+	box-shadow: 2px 3px 3px black;
+    
+}
+
+.SliderImg5 {
+	width: 33.33%;
+	max-width: 400px;
+	height: auto;
+	border: 5px solid cornflowerblue;
+	box-shadow: 2px 3px 3px black;
+    
+}
+
+.SliderImg6 {
+	width: 33.33%;
+	max-width: 400px;
+	height: auto;
+	border: 5px solid cornflowerblue;
+	box-shadow: 2px 3px 3px black;
     
 }
