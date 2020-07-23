@@ -6,7 +6,7 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
 }
 
-/* Header and Logo */
+/* Header and Logo - For emails and landing pages I would usually contain it all inside a card or div set to around 800px max-width. For full webpages I sugguest headers and footers just be set to 100%  */
 
 .header {
     font-size: larger;
@@ -26,7 +26,7 @@ body {
     float: none;
 }
 
-/* Navigation Bar */
+/* Navigation Bar- This is a simpler navigation menu. If I had developed an entire site I would have used the header/menu/footer for a template and just changed the content in the middle for the other webpages. But this is really just a landing page for my online resume */
 
 ul.topnav {
   list-style-type: none;
@@ -95,6 +95,8 @@ ul.topnav li.right {float: right;}
 	float: left;
 }
 
+/* Keyframes relate with the animation tag. The percentages relate to the location (it's how far in percentages related to it's container, which in this case would be Div ID slideshow) horizontally the image */
+
 @keyframes slider {
 	0% {
 		left: 0;
@@ -127,65 +129,6 @@ ul.topnav li.right {float: right;}
 	100% {
 		left: -400%;
 	}
-}
-
-.SliderImg1 {
-	width: 100%;
-	max-width: 400px;
-	margin: auto;
-	height: auto;
-	border: 5px solid cornflowerblue;
-	box-shadow: 2px 3px 3px black;
-    
-}
-
-.SliderImg2 {
-	width: 80%;
-	max-width: 400px;
-	margin: auto;
-	height: auto;
-	border: 5px solid cornflowerblue;
-	box-shadow: 2px 3px 3px black;
-    
-}
-
-.SliderImg3 {
-	width: 80%;
-	max-width: 400px;
-	margin: auto;
-	height: auto;
-	border: 5px solid cornflowerblue;
-	box-shadow: 2px 3px 3px black;
-    
-}
-
-.SliderImg4 {
-	width: 80%;
-	max-width: 400px;
-	margin: auto;
-	height: auto;
-	border: 5px solid cornflowerblue;
-	box-shadow: 2px 3px 3px black;
-    
-}
-
-.SliderImg5 {
-	width: 120%;
-	max-width: 400px;
-	height: auto;
-	margin: auto;
-	border: 5px solid cornflowerblue;
-	box-shadow: 2px 3px 3px black;
-}    
-
-h2 {
-	background: grey;
-	color: grey;
-	text-shadow: black 2px;
-	padding: 2%;
-	margin: auto;
-	text-align: center;
-	width: 100%;
 }
 
 /* Work History Cards */
@@ -304,17 +247,13 @@ h2 {
 	padding: 40% 10%;
 }
 
-
-
-
-
 footer {
 	background: black;
 	width: 100%;
 	padding: 2%;
 }
 
-/* Bio Card */
+/* Bio Card- Cards are usually, or at least simple ones are, two divs stacked on top on one another. They are popular for their relatively simple animation qualities, which can add to the over user experience */
 	
 .bio { 
 	width: 80%;
