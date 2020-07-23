@@ -420,10 +420,11 @@ footer {
     
 }
 
-h1 {
-	background: black;
-	color: aquamarine;
+h2 {
+	background: grey;
+	color: cornsilk;
 	text-shadow: black 2px;
 	padding: 2%;
 	margin: auto;
+	text-align: center;
 }
