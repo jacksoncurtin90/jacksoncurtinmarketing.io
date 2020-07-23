@@ -15,7 +15,7 @@ body {
     background-color: #000000;
     text-align: center;
 	width: 100%;
-	max-width: 1080px;
+	
 }
 
 .headerimg {
@@ -35,7 +35,7 @@ ul.topnav {
   overflow: hidden;
   background-color: #333;
   width: 100%;
-  max-width: 1080px;
+  
 }
 
 ul.topnav li {float: left;}
