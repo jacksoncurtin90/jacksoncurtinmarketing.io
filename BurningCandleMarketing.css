@@ -101,7 +101,7 @@ ul.topnav li.right {float: right;}
 	transition: 0.4s;
 }
 
-.bar.hover {
+.bar:hover {
 	background: #fff;
 }
 
@@ -121,7 +121,7 @@ input[name="r"] {
 }
 
 #r1 :checked ~ .s1 {
-	margin-left: 0%;
+	margin-left: 0;
 }
 
 #r2 :checked ~ .s1 {
@@ -202,6 +202,7 @@ h2 {
 	padding: 2%;
 	margin: auto;
 	text-align: center;
+	width: 100%;
 }
 
 /* Work History Cards */
