@@ -147,10 +147,11 @@ input[name="r"] {
 	margin-left: -80%;
 }
 
-/*
+
 .SliderImg1 {
 	width: 100%;
 	max-width: 400px;
+	margin: auto;
 	height: auto;
 	border: 5px solid cornflowerblue;
 	box-shadow: 2px 3px 3px black;
@@ -160,6 +161,7 @@ input[name="r"] {
 .SliderImg2 {
 	width: 80%;
 	max-width: 400px;
+	margin: auto;
 	height: auto;
 	border: 5px solid cornflowerblue;
 	box-shadow: 2px 3px 3px black;
@@ -169,6 +171,7 @@ input[name="r"] {
 .SliderImg3 {
 	width: 80%;
 	max-width: 400px;
+	margin: auto;
 	height: auto;
 	border: 5px solid cornflowerblue;
 	box-shadow: 2px 3px 3px black;
@@ -178,6 +181,7 @@ input[name="r"] {
 .SliderImg4 {
 	width: 80%;
 	max-width: 400px;
+	margin: auto;
 	height: auto;
 	border: 5px solid cornflowerblue;
 	box-shadow: 2px 3px 3px black;
@@ -188,6 +192,7 @@ input[name="r"] {
 	width: 120%;
 	max-width: 400px;
 	height: auto;
+	margin: auto;
 	border: 5px solid cornflowerblue;
 	box-shadow: 2px 3px 3px black;
     
@@ -197,11 +202,12 @@ input[name="r"] {
 	width: 60%;
 	max-width: 400px;
 	height: auto;
+	margin: auto;
 	border: 5px solid cornflowerblue;
 	box-shadow: 2px 3px 3px black;
     
 }
-*/
+
 h2 {
 	background: grey;
 	color: cornsilk;
