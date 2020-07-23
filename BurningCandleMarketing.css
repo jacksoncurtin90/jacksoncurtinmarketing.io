@@ -347,7 +347,7 @@ footer {
 	top: 0;
 	left: calc(50% - 100px);
 	opacity: 0;
-	animation: display 20s infinite;
+	animation: display 24s infinite;
   }
   
   img:nth-child(2) {
@@ -361,6 +361,9 @@ footer {
   }
   img:nth-child(5) {
 	animation-delay: 16s;
+  }
+  img:nth-child(6) {
+	animation-delay: 20s;
   }
 
 .SliderImg1 {
