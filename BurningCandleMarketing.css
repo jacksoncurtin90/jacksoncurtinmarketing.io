@@ -65,7 +65,7 @@ ul.topnav li.right {float: right;}
 	width: 80%;
 	max-width: 800px;
 	margin: auto;
-	padding: 3%;
+	padding: 2%;
 }
 
 /* Work Examples Gallery */
@@ -103,14 +103,7 @@ ul.topnav li.right {float: right;}
 	}
   }
   
-  .pic-ctn {
-	position: relative;
-	margin-top: 15vh;
-  }
-  
   .pic-ctn > img {
-
-	
 	left: calc(50% - 100px);
 	opacity: 0;
 	animation: display 20s infinite;
