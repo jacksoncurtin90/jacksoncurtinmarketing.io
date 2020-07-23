@@ -70,59 +70,75 @@ ul.topnav li.right {float: right;}
 
 /* Work Examples Gallery */
 
-.pic-ctn {
-	width: 80%;
-	max-width: 500px;
-	height: auto;
-	max-height: 800px;
-	overflow: auto;
-	margin: auto;
-	padding: 2%;
-  }
-  
-  @keyframes display {
-	0% {
-	  transform: translateX(200px);
-	  opacity: 0;
-	}
-	10% {
-	  transform: translateX(0);
-	  opacity: 1;
-	}
-	20% {
-	  transform: translateX(0);
-	  opacity: 1;
-	}
-	30% {
-	  transform: translateX(-200px);
-	  opacity: 0;
-	}
-	100% {
-	  transform: translateX(-200px);
-	  opacity: 0;
-	}
-  }
-  
-  .pic-ctn > img {
-	  position: absolute;
-	  top: 0;
-	left: calc(50% - 100px);
-	opacity: 0;
-	animation: display 20s infinite;
-  }
-  
-  img:nth-child(2) {
-	animation-delay: 4s;
-  }
-  img:nth-child(3) {
-	animation-delay: 8s;
-  }
-  img:nth-child(4) {
-	animation-delay: 12s;
-  }
-  img:nth-child(5) {
-	animation-delay: 16s;
-  }
+.slideshow {
+	width: 100%;
+	max-width: 800px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.navigation {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+
+.bar {
+	width: 50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+bar.hover {
+	background: #fff;
+}
+
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 100%;
+	display: flex;
+}
+
+.slide {
+	transition: 0.6s;
+}
+
+#r1: :checked ~ .s1 {
+	margin-left: 0%;
+}
+
+#r2: :checked ~ .s1 {
+	margin-left: -20%;
+}
+
+#r3: :checked ~ .s1 {
+	margin-left: -40%;
+}
+
+#r4: :checked ~ .s1 {
+	margin-left: -60%;
+}
+
+#r5: :checked ~ .s1 {
+	margin-left: -80%;
+}
 
 
 .SliderImg1 {
