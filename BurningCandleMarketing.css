@@ -307,7 +307,8 @@ footer {
 
 
 .pic-ctn {
-	width: 33.33%;
+	width: 80%;
+	max-width: 500px;
 	height: auto;
 	overflow: auto;
 	margin: auto;
