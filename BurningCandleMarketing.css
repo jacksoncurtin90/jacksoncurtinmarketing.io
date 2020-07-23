@@ -62,7 +62,7 @@ ul.topnav li.right {float: right;}
 .main {
 	background: white;
 	overflow: auto;
-	width: 80%;
+	width: 100%;
 	max-width: 800px;
 	margin: auto;
 	padding: 2%;
