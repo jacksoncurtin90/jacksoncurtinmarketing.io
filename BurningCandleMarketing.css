@@ -71,7 +71,6 @@ ul.topnav li.right {float: right;}
 /* Work Examples Gallery */
 
 .pic-ctn {
-	display: block;
 	width: 80%;
 	max-width: 500px;
 	height: auto;
@@ -105,6 +104,8 @@ ul.topnav li.right {float: right;}
   }
   
   .pic-ctn > img {
+	  position: fixed;
+	  top: auto;
 	left: calc(50% - 100px);
 	opacity: 0;
 	animation: display 20s infinite;
