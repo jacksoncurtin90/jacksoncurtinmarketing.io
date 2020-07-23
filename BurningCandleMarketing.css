@@ -419,3 +419,11 @@ footer {
 	box-shadow: 2px 3px 3px black;
     
 }
+
+h1 {
+	background: black;
+	color: aquamarine;
+	text-shadow: black 2px;
+	padding: 2%;
+	margin: auto;
+}
