@@ -74,8 +74,7 @@ ul.topnav li.right {float: right;}
 /* Work Examples Gallery */
 
 .slideshow {
-	max-width: 800px;
-	margin: auto;
+	max-width: 400px;
 }
 
 #slider {
@@ -311,7 +310,6 @@ h2 {
 footer {
 	background: black;
 	width: 100%;
-	max-width: 1080px;
 	padding: 2%;
 }
 
