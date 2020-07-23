@@ -345,6 +345,7 @@ footer {
   }
   */
   .pic-ctn > img {
+	
 	left: calc(50% - 100px);
 	opacity: 0;
 	animation: display 20s infinite;
@@ -365,7 +366,7 @@ footer {
 
 
 .SliderImg1 {
-	width: 33.33%;
+	width: 80%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
@@ -374,7 +375,7 @@ footer {
 }
 
 .SliderImg2 {
-	width: 33.33%;
+	width: 80%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
@@ -383,7 +384,7 @@ footer {
 }
 
 .SliderImg3 {
-	width: 33.33%;
+	width: 80%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
@@ -392,7 +393,7 @@ footer {
 }
 
 .SliderImg4 {
-	width: 33.33%;
+	width: 80%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
@@ -401,7 +402,7 @@ footer {
 }
 
 .SliderImg5 {
-	width: 33.33%;
+	width: 80%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
@@ -410,7 +411,7 @@ footer {
 }
 
 .SliderImg6 {
-	width: 33.33%;
+	width: 80%;
 	max-width: 400px;
 	height: auto;
 	border: 5px solid cornflowerblue;
