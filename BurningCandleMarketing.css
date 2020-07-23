@@ -14,7 +14,8 @@ body {
     margin: auto;
     background-color: #000000;
     text-align: center;
-    width: 100%;
+	width: 100%;
+	max-width: 1080px;
 }
 
 .headerimg {
@@ -33,6 +34,8 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  width: 100%;
+  max-width: 1080px;
 }
 
 ul.topnav li {float: left;}
@@ -63,7 +66,7 @@ ul.topnav li.right {float: right;}
 	background: white;
 	overflow: auto;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1080px;
 	margin: auto;
 	padding: 2%;
 }
@@ -341,7 +344,7 @@ h2 {
 footer {
 	background: black;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1080px;
 	padding: 2%;
 }
 
