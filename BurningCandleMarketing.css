@@ -310,6 +310,7 @@ footer {
 	width: 33.33%;
 	height: auto;
 	overflow: auto;
+	margin: auto;
   }
   
   @keyframes display {
