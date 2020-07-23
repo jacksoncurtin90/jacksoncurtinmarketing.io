@@ -103,7 +103,7 @@ ul.topnav li.right {float: right;}
 	}
   }
   
-  .Gallery1 {
+  .pic-ctn > img {
 	  position: absolute;
 	  top: 0;
 	left: calc(50% - 100px);
