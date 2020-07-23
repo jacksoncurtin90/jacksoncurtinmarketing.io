@@ -311,6 +311,7 @@ footer {
 	height: auto;
 	overflow: auto;
 	margin: auto;
+	padding: 2%;
   }
   
   @keyframes display {
@@ -335,14 +336,14 @@ footer {
 	  opacity: 0;
 	}
   }
-  
+  /* 
   .pic-ctn {
 	position: relative;
 	width: 100vw;
 	height: 300px;
 	margin-top: 15vh;
   }
-  
+  */
   .pic-ctn > img {
 	position: absolute;
 	top: 0;
