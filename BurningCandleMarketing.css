@@ -103,9 +103,9 @@ ul.topnav li.right {float: right;}
 	}
   }
   
-  .pic-ctn > img {
-	  position: fixed;
-	  top: auto;
+  .Gallery1 {
+	  position: absolute;
+	  top: 0;
 	left: calc(50% - 100px);
 	opacity: 0;
 	animation: display 20s infinite;
