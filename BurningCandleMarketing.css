@@ -265,7 +265,7 @@ ul.topnav li.right {float: right;}
 	float: left;
 	padding: 2%;
 	box-shadow: 2px 3px 3px black;
-	border-radius: 15%;
+	border-radius: 5%;
 }
 
 .List {
@@ -292,7 +292,7 @@ footer {
 	padding: 2%; 
 	margin: auto;
 	overflow: auto;
-	border-radius: 15%;
+	border-radius: 5%;
 	box-shadow: 5px 6px 6px black;
 }
 
