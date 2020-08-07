@@ -256,6 +256,9 @@ ul.topnav li.right {float: right;}
 
 .SkillList {
 	background-color: white;
+	width: 20%;
+	max-width: 200px;
+	margin: 2%;
 	display: block;
 	float: left;
 	padding: 2%;
