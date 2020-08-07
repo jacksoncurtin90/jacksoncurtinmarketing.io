@@ -95,6 +95,14 @@ ul.topnav li.right {float: right;}
 	float: left;
 }
 
+.sliderbackground {
+	width: auto;
+	background-color: darkgray;
+	padding: 2%;
+	overflow: auto;
+	box-shadow: 2px 3px 3px black;
+}
+
 /* Keyframes relate with the animation tag. The percentages relate to the location (it's how far in percentages related to it's container, which in this case would be Div ID slideshow) horizontally the image */
 
 @keyframes slider {
@@ -142,18 +150,6 @@ ul.topnav li.right {float: right;}
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
    
-}
-
-.resume { 
-	width: 90%;
-	max-width: 750px;
-	color: black; 
-	background: white; 
-	font-size: 110%; 
-	padding: 5%; 
-	margin: auto; 
-	overflow: auto;
-	box-shadow: 2px 3px 3px black;
 }
 
 .p2 {
