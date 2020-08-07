@@ -96,7 +96,8 @@ ul.topnav li.right {float: right;}
 }
 
 .sliderbackground {
-	width: auto;
+	width: 80%;
+	max-width: 800px;
 	background-color: darkgray;
 	padding: 2%;
 	overflow: auto;
