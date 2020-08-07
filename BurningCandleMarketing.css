@@ -246,6 +246,11 @@ ul.topnav li.right {float: right;}
 
 /* Skills Boxes and Background. I set them to Float left so that they will stack left to right and only start a new line if the width of the screen is too small */
 
+h2 {
+	text-align: center;
+	text-shadow: blue;
+}
+
 .Skillset {
 	background-color: darkgray;
 	width: 90%;
