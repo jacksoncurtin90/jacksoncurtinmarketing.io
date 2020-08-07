@@ -266,7 +266,6 @@ h2 {
 	background-color: white;
 	width: 40%;
 	max-width: 350px;
-	min-width: 250px;
 	height: auto;
 	margin: 2%;
 	display: block;
@@ -281,7 +280,6 @@ h2 {
 	background-color: white;
 	width: 40%;
 	max-width: 350px;
-	min-height: 250px;
 	height: auto;
 	margin: 2%;
 	display: block;
