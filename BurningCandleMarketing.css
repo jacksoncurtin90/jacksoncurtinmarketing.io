@@ -272,7 +272,7 @@ h2 {
 	float: left;
 	padding: 2%;
 	border: 5px solid cornflowerblue;
-	border-radius: 25%;
+	border-radius: 15%;
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
 }
@@ -287,7 +287,7 @@ h2 {
 	float: right;
 	padding: 2%;
 	border: 5px solid cornflowerblue;
-	border-radius: 25%;
+	border-radius: 15%;
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
 }
