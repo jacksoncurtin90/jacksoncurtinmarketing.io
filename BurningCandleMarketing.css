@@ -261,13 +261,24 @@ h2 {
 	box-shadow: 2px 3px 3px black;
 }
 
-.SkillList {
+.SkillList1 {
 	background-color: white;
 	width: 30%;
 	max-width: 350px;
 	margin: 2%;
 	display: block;
 	float: left;
+	padding: 2%;
+	box-shadow: 2px 3px 3px black;
+}
+
+.SkillList2 {
+	background-color: white;
+	width: 30%;
+	max-width: 350px;
+	margin: 2%;
+	display: block;
+	float: right;
 	padding: 2%;
 	box-shadow: 2px 3px 3px black;
 }
