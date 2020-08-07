@@ -285,6 +285,8 @@ h2 {
 	display: block;
 	float: right;
 	padding: 2%;
+	border: 5px solid cornflowerblue;
+	border-radius: 25%;
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
 }
