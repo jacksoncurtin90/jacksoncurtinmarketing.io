@@ -243,6 +243,30 @@ ul.topnav li.right {float: right;}
 	padding: 40% 10%;
 }
 
+/* Skills Boxes and Background. I set them to Float left so that they will stack left to right and only start a new line if the width of the screen is too small */
+
+.Skillset {
+	background-color: darkgray;
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	padding: 2%;
+	box-shadow: 2px 3px 3px black;
+}
+
+.SkillList {
+	background-color: white;
+	display: block;
+	float: left;
+	padding: 2%;
+}
+
+.List {
+	Color: Black;
+	font-size: 5%;
+	text-align: left;
+}
+
 footer {
 	background: black;
 	width: 100%;
