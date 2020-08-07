@@ -248,7 +248,7 @@ ul.topnav li.right {float: right;}
 
 h2 {
 	text-align: center;
-	text-shadow: blue;
+	text-shadow: 2px 3px 3px blue;
 }
 
 .Skillset {
@@ -265,16 +265,16 @@ h2 {
 	background-color: white;
 	width: 30%;
 	max-width: 350px;
+	margin: 2%;
 	display: block;
 	float: left;
 	padding: 2%;
 	box-shadow: 2px 3px 3px black;
-	border-radius: 25%;
 }
 
 .List {
 	Color: Black;
-	font-size: 35%;
+	font-size: 100%;
 	text-align: left;
 }
 
@@ -296,7 +296,6 @@ footer {
 	padding: 2%; 
 	margin: auto;
 	overflow: auto;
-	border-radius: 25%;
 	box-shadow: 5px 6px 6px black;
 }
 
