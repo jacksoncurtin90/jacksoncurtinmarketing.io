@@ -283,7 +283,7 @@ h2 {
 	display: block;
 	float: right;
 	padding: 2%;
-	border: 5px solid cornflowerblue;
+	border: 15% solid cornflowerblue;
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
 }
