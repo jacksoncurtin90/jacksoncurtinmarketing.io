@@ -290,9 +290,11 @@ h2 {
 	background-color: white;
 	width: 90%;
 	max-width: 350px;
+	margin: auto;
 	padding: 2%;
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
+	border-radius: 15%;
 }
 
 .List {
