@@ -262,34 +262,12 @@ h2 {
 	box-shadow: 2px 3px 3px black;
 }
 
-.SkillList1 {
-	background-color: cornflowerblue;
-	width: 40%;
-	max-width: 400px;
-	margin: 2%;
-	display: block;
-	float: left;
-	padding: 2%;
-	overflow: auto;
-	box-shadow: 2px 3px 3px black;
-}
 
-.SkillList2 {
-	background-color: cornflowerblue;
-	width: 40%;
-	max-width: 400px;
-	margin: 2%;
-	display: block;
-	float: right;
-	padding: 2%;
-	overflow: auto;
-	box-shadow: 2px 3px 3px black;
-}
 
 .SkillCard {
-	background-color: white;
+	background-color: cornflowerblue;
 	width: 90%;
-	max-width: 350px;
+	max-width: 600px;
 	margin: auto;
 	padding: 2%;
 	overflow: auto;
@@ -298,9 +276,16 @@ h2 {
 }
 
 .List {
+	background-color: white;
+	width: 90%;
+	max-width: 450px;
+	margin: auto;
 	Color: Black;
 	font-size: 100%;
 	text-align: left;
+	box-shadow: 2px 3px 3px black;
+	border-radius: 5%;
+	
 }
 
 footer {
@@ -345,6 +330,4 @@ footer {
 	box-shadow: 2px 3px 3px black;
 	background: white;
 }
-
-
 
