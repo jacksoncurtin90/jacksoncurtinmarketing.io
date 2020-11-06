@@ -152,11 +152,21 @@ ul.topnav li.right {float: right;}
 	overflow: auto;
 }
 
+.WritingCard {
+	width: 90%;
+	max-width: 750px;
+	background: white;
+	Margin: auto;
+	box-shadow: 2px 3px 3px black;
+
+}
+
 .WritingHeader {
-	color: White;
+	color: #fc0c00;
 	text-align: center;
 	text-shadow: 1px 2px 2px black;
 }
+
 
 .WritingBlockLeft {
 	width: 35%;
