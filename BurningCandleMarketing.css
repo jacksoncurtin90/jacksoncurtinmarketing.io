@@ -358,8 +358,8 @@ footer {
 /* Bio Card- Cards are usually, or at least simple ones are, two divs stacked on top on one another. They are popular for their relatively simple animation qualities, which can add to the overall user experience */
 	
 .bio { 
-	width: 40%;
-	max-width: 540px;
+	width: 70%;
+	max-width: 800px;
 	height: auto;
 	color: black; 
 	background:#95CFC2; 
