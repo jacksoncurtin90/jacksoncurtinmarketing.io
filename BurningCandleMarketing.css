@@ -12,6 +12,13 @@ body {
 	padding: 2%;
 }
 
+.DivBlock {
+	width: 100%;
+	max-width: 1080px;
+	padding: 1.75%;
+	margin: auto;
+}
+
 /* Header and Logo - For emails and landing pages I would usually contain it all inside a table or div set to around 800px max-width. For full webpages I sugguest headers and footers just be set to 100%  */
 
 .header {
@@ -28,14 +35,14 @@ body {
 	height: auto;
 	max-height: 250px;
     float: left;
-	padding: 2%;
+	padding: 5%;
 	
 }
 
 h1 {
     font-family: Roboto, Helvetica, sans-serif;
-	color: antiquewhite;
-	text-shadow: 2px 3px 3px black;
+	color: white;
+	text-shadow: 1px 2px 2px black;
 }
 
 .Title {
@@ -149,9 +156,30 @@ ul.topnav li.right {float: right;}
 	}
 }
 
+/*Video and Text Window 1 */
+
+.Videos{
+	Width: 90%;
+	Max-width: 1080px;
+	Padding: 5%;
+	height: auto;
+	overflow: auto;
+	background-color:#95CFC2;
+}
+
+.TextWindow1{
+	Width: 40%;
+	max-width: 400px;
+	height: auto;
+	overflow: auto;
+	float: right;
+	background-color:antiquewhite;
+	
+}
+
 /* Writing Examples Gallery */
 .Writing1 {
-	width: 80%; 
+	width: 90%; 
 	background: #cf95a3;
 	max-width: 1080px; 
 	height: auto;
@@ -302,7 +330,7 @@ ul.topnav li.right {float: right;}
 
 h2 {
 	text-align: center;
-	color: white;
+	color: #FF0C00;
 	text-shadow: 2px 3px 3px black;
 }
 
