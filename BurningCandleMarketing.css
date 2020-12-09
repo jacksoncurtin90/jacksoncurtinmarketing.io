@@ -174,7 +174,7 @@ ul.topnav li.right {float: right;}
 	height: auto;
 	overflow: auto;
 	float: right;
-	background-colorwhite;
+	background-color: white;
 	box-shadow: 2px 3px 3px black;
 	
 }
@@ -333,7 +333,6 @@ ul.topnav li.right {float: right;}
 h2 {
 	text-align: center;
 	color: #FF0C00;
-	text-shadow: .5px 1px 1px black;
 }
 
 
