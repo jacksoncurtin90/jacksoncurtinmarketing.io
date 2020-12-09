@@ -151,7 +151,7 @@ ul.topnav li.right {float: right;}
 
 /* Writing Examples Gallery */
 .Writing1 {
-	width: 90%; 
+	width: 80%; 
 	background: #cf95a3;
 	max-width: 1080px; 
 	height: auto;
@@ -182,7 +182,6 @@ ul.topnav li.right {float: right;}
 	margin: 3%;
 	padding:1%;
 	background: white;
-	max-width: 300px;
 	height: 250px;
 	float: center;
 	box-shadow: 2px 3px 3px black;
@@ -192,7 +191,7 @@ ul.topnav li.right {float: right;}
 .Headlines {
 	color: #ff0c00;
 	font-size: 125%;
-	text-align: center;
+	text-align: right;
 }
 
 
@@ -200,10 +199,10 @@ ul.topnav li.right {float: right;}
 
 .card2 {   
 	width: 50%; 
-	background: cornflowerblue;
+	background: #BD9CCB;
+	float: left;
 	max-width: 600px; 
-	height: auto;
-	padding: 2%;  
+	height: auto;  
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
    
@@ -212,7 +211,6 @@ ul.topnav li.right {float: right;}
 .p2 {
 	margin: 0% 10% 0% 10%;
 	border: 10px solid grey;
-	padding: 5%;
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
 }
@@ -224,7 +222,7 @@ ul.topnav li.right {float: right;}
   display: block;
   padding: 5%;
   border-radius: 15%;
-  border: 20px solid cornflowerblue;
+  border: 20px solid #BD9CCB;
   width: 85%;
   max-width: 400px;
   height: 400px;
@@ -312,9 +310,9 @@ h2 {
 
 .List {
 	background-color: white;
-	width: 35%;
-	max-width: 300px;
-	Float: left;
+	width: 40%;
+	max-width: 500px;
+	Float: right;
 	Color: Black;
 	font-size: 100%;
 	text-align: left;
@@ -325,6 +323,8 @@ h2 {
 footer {
 	background: #95CFC2;
 	width: 100%;
+	margin: auto;
+	max-width: 1200px;
 }
 
 /* Bio Card- Cards are usually, or at least simple ones are, two divs stacked on top on one another. They are popular for their relatively simple animation qualities, which can add to the overall user experience */
@@ -339,7 +339,6 @@ footer {
 	padding: 2%; 
 	margin: auto;
 	overflow: auto;
-	box-shadow: 5px 6px 6px black;
 }
 
 .imgcard {
@@ -363,4 +362,3 @@ footer {
 	box-shadow: 2px 3px 3px black;
 	background: antiquewhite;
 }
-
