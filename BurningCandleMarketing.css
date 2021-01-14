@@ -215,6 +215,8 @@ ul.topnav li.right {float: right;}
 	height: 250px;
 	float: center;
 	box-shadow: 2px 3px 3px black;
+	text-align: left;
+	overflow: auto;
 }
 
 
