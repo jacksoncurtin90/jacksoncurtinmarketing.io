@@ -354,6 +354,8 @@ h2 {
 	Color: Black;
 	font-size: 100%;
 	text-align: left;
+	border: 5px solid #BD9CCB;
+	border-radius: 15%;
 	box-shadow: 2px 3px 3px black;
 	
 }
