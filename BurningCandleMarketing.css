@@ -180,6 +180,14 @@ ul.topnav li.right {float: right;}
 }
 
 /* Writing Examples Gallery */
+
+.DivBlock2 {
+	width: 100%;
+	max-width: 800px;
+	padding: 1.75%;
+	margin: auto;
+}
+
 .Writing1 {
 	width: 90%; 
 	background: #cf95a3;
