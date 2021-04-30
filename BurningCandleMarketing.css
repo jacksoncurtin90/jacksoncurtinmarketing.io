@@ -6,15 +6,15 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
 }
 .BodyContent {
-	width: 100%;
-	max-width: 1200px;
+	width: 90%;
+	max-width: 800px;
 	background-color: #cfeaf9;
-	padding: 2%;
+	margin:auto;
 }
 
 .DivBlock {
 	width: 100%;
-	max-width: 1080px;
+	max-width: 800px;
 	padding: 1.75%;
 	margin: auto;
 }
@@ -26,7 +26,7 @@ body {
     margin: auto;
     background-color: #788fbf;
 	width: 100%;
-	max-width: 1200px;
+	max-width: 800px;
 	overflow: auto;
 	
 }
@@ -58,7 +58,7 @@ ul.topnav {
   overflow: hidden;
   background-color: #cf95a3;
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   
 }
 
@@ -191,7 +191,7 @@ ul.topnav li.right {float: right;}
 .Writing1 {
 	width: 90%; 
 	background: #cf95a3;
-	max-width: 1080px; 
+	max-width: 800px; 
 	height: auto;
 	padding: 5%;  
 	overflow: auto;
@@ -199,7 +199,7 @@ ul.topnav li.right {float: right;}
 
 .WritingCard {
 	width: 90%;
-	max-width: 900px;
+	max-width: 800px;
 	background: antiquewhite;
 	Margin: auto;
 	box-shadow: 2px 3px 3px black;
@@ -237,10 +237,10 @@ ul.topnav li.right {float: right;}
 /* Work History Cards */
 
 .card2 {   
-	width: 50%; 
+	width: 90%; 
 	background: #BD9CCB;
 	float: left;
-	max-width: 600px; 
+	max-width: 800px; 
 	height: auto;  
 	overflow: auto;
 	box-shadow: 2px 3px 3px black;
@@ -348,14 +348,14 @@ h2 {
 
 .List {
 	background-color: white;
-	width: 90%;
+	width: 50%;
 	max-width: 800px;
 	Float: left;
 	Color: Black;
 	font-size: 100%;
 	text-align: left;
-	border: 5px solid #BD9CCB;
-	border-radius: 15%;
+	border: 15px solid #BD9CCB;
+	border-radius: 15px;
 	box-shadow: 2px 3px 3px black;
 	
 }
