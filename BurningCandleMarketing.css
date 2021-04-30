@@ -212,7 +212,7 @@ ul.topnav li.right {float: right;}
 	padding:1%;
 	background: white;
 	height: 250px;
-	float: center;
+	margin: auto;
 	box-shadow: 2px 3px 3px black;
 	text-align: left;
 	overflow: auto;
@@ -220,9 +220,8 @@ ul.topnav li.right {float: right;}
 
 
 .Headlines {
-	color: #ff0c00;
+	color: #3c2d73;
 	font-size: 125%;
-	text-align: right;
 }
 
 
