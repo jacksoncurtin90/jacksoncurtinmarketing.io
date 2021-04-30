@@ -1,14 +1,14 @@
 /* Best practice for Your body style is to set your default font-family, background color, or any other spefications that would be relevent for the entire page. Tags like body, footer, and header don't need a designated class or ID marker in CSS */
 
 body {
-	background-color: #A3CF95;
+	background-color: #788fbf;
     margin: 0%;
     font-family: Roboto, Helvetica, sans-serif;
 }
 .BodyContent {
 	width: 100%;
 	max-width: 1200px;
-	background-color: antiquewhite;
+	background-color: #A6BBC7;
 	padding: 2%;
 }
 
@@ -24,7 +24,7 @@ body {
 .header {
     font-size: larger;
     margin: auto;
-    background-color: #95CFC2;
+    background-color: #cfeaf9;
 	width: 100%;
 	max-width: 1200px;
 	overflow: auto;
