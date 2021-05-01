@@ -259,7 +259,6 @@ ul.topnav li.right {float: right;}
 
 .flip-card {
   background-color: grey;
-  display: block;
   padding: 5%;
   border-radius: 15%;
   border: 20px solid #BD9CCB;
