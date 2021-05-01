@@ -160,7 +160,7 @@ ul.topnav li.right {float: right;}
 
 .Videos{
 	Width: 90%;
-	Max-width: 1080px;
+	Max-width: 800px;
 	Padding: 5%;
 	height: auto;
 	overflow: auto;
@@ -173,6 +173,7 @@ ul.topnav li.right {float: right;}
 	max-width: 400px;
 	height: auto;
 	overflow: auto;
+	margin: auto;
 	float: right;
 	background-color: white;
 	box-shadow: 2px 3px 3px black;
@@ -239,7 +240,7 @@ ul.topnav li.right {float: right;}
 .card2 {   
 	width: 90%; 
 	background: #BD9CCB;
-	float: left;
+	margin: auto;
 	max-width: 800px; 
 	height: auto;  
 	overflow: auto;
@@ -350,7 +351,7 @@ h2 {
 	background-color: white;
 	width: 90%;
 	max-width: 800px;
-	Float: left;
+	margin: auto;
 	Color: Black;
 	font-size: 100%;
 	text-align: left;
