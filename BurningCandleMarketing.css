@@ -387,8 +387,8 @@ footer {
 }
 
 .imgcard {
-	width: 25%; 
-	max-width: 150px; 
+	width: 90%; 
+	max-width: 400px; 
 	height: auto; 
 	float:left; 
 	border-radius: 50%; 
