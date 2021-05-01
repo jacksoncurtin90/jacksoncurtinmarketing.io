@@ -164,7 +164,7 @@ ul.topnav li.right {float: right;}
 
 .Videos{
 	Width: 90%;
-	Max-width: 800px;
+	Max-width: 600px;
 	Padding: 5%;
 	height: auto;
 	overflow: auto;
@@ -203,8 +203,8 @@ ul.topnav li.right {float: right;}
 }
 
 .WritingCard {
-	width: 90%;
-	max-width: 800px;
+	width: 80%;
+	max-width: 600px;
 	background: antiquewhite;
 	Margin: auto;
 	box-shadow: 2px 3px 3px black;
