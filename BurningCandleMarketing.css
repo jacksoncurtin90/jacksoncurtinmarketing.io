@@ -3,7 +3,7 @@
 body {
 	background-color: #788fbf;
     margin: 0%;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Baskerville, serif;
 }
 .BodyContent {
 	width: 90%;
@@ -40,7 +40,7 @@ body {
 }
 
 h1 {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Baskerville, serif;
 	color: white;
 	text-shadow: 1px 2px 2px black;
 }
