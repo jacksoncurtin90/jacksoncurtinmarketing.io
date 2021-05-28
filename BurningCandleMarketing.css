@@ -96,7 +96,7 @@ ul.topnav li.right {float: right;}
 /* Responsive layout for Profile Card */
 @media screen and (max-width: 600px) {
 	.card {
-	  width: 100%;
+	  width: 80%;
 	}
   }
 
