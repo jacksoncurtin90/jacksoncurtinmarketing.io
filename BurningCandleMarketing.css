@@ -234,6 +234,12 @@ Acontent {
 
 }
 
+.image {
+	width: 30%;
+	height: auto;
+	padding: 2%;
+}
+
 /* Create four equal columns that sits next to each other */
 .column {
   -ms-flex: 50%; /* IE10 */
