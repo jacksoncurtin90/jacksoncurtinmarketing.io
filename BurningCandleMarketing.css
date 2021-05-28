@@ -81,7 +81,7 @@ ul.topnav li.right {float: right;}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;	
+  width: 60%;	
   max-width: 700px;
   margin: auto;
   text-align: center;
@@ -92,6 +92,13 @@ ul.topnav li.right {float: right;}
   border: 5px solid #BD9CCB;
   border-radius: 15px;
 }
+
+/* Responsive layout for Profile Card */
+@media screen and (max-width: 600px) {
+	.card {
+	  width: 100%;
+	}
+  }
 
 .title {
   color: grey;
